@@ -30,11 +30,12 @@
         {
             this.lblMessage1 = new System.Windows.Forms.Label();
             this.lblMessage2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMinimum = new System.Windows.Forms.TextBox();
             this.lblMessage3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMaximum = new System.Windows.Forms.TextBox();
             this.lblResult = new System.Windows.Forms.Label();
-            this.btnSubmit = new System.Windows.Forms.Button();
+            this.btnInteger = new System.Windows.Forms.Button();
+            this.btnDouble = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMessage1
@@ -57,13 +58,12 @@
             this.lblMessage2.TabIndex = 1;
             this.lblMessage2.Text = "Minimum";
             // 
-            // textBox1
+            // txtMinimum
             // 
-            this.textBox1.Location = new System.Drawing.Point(96, 69);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtMinimum.Location = new System.Drawing.Point(96, 69);
+            this.txtMinimum.Name = "txtMinimum";
+            this.txtMinimum.Size = new System.Drawing.Size(100, 20);
+            this.txtMinimum.TabIndex = 2;
             // 
             // lblMessage3
             // 
@@ -75,13 +75,12 @@
             this.lblMessage3.TabIndex = 3;
             this.lblMessage3.Text = "Maximum";
             // 
-            // textBox2
+            // txtMaximum
             // 
-            this.textBox2.Location = new System.Drawing.Point(96, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtMaximum.Location = new System.Drawing.Point(96, 110);
+            this.txtMaximum.Name = "txtMaximum";
+            this.txtMaximum.Size = new System.Drawing.Size(100, 20);
+            this.txtMaximum.TabIndex = 4;
             // 
             // lblResult
             // 
@@ -91,15 +90,27 @@
             this.lblResult.Size = new System.Drawing.Size(0, 13);
             this.lblResult.TabIndex = 5;
             // 
-            // btnSubmit
+            // btnInteger
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(76, 148);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
-            this.btnSubmit.TabIndex = 6;
-            this.btnSubmit.Text = "Submit";
-            this.btnSubmit.UseVisualStyleBackColor = true;
-            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            this.btnInteger.Font = new System.Drawing.Font("PanRoman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnInteger.Location = new System.Drawing.Point(12, 152);
+            this.btnInteger.Name = "btnInteger";
+            this.btnInteger.Size = new System.Drawing.Size(79, 23);
+            this.btnInteger.TabIndex = 6;
+            this.btnInteger.Text = "Get Integer";
+            this.btnInteger.UseVisualStyleBackColor = true;
+            this.btnInteger.Click += new System.EventHandler(this.btnInteger_Click_1);
+            // 
+            // btnDouble
+            // 
+            this.btnDouble.Font = new System.Drawing.Font("PanRoman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnDouble.Location = new System.Drawing.Point(185, 152);
+            this.btnDouble.Name = "btnDouble";
+            this.btnDouble.Size = new System.Drawing.Size(75, 23);
+            this.btnDouble.TabIndex = 7;
+            this.btnDouble.Text = "Get Double";
+            this.btnDouble.UseVisualStyleBackColor = true;
+            this.btnDouble.Click += new System.EventHandler(this.btnDouble_Click);
             // 
             // Form1
             // 
@@ -107,11 +118,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(272, 285);
-            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.btnDouble);
+            this.Controls.Add(this.btnInteger);
             this.Controls.Add(this.lblResult);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtMaximum);
             this.Controls.Add(this.lblMessage3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMinimum);
             this.Controls.Add(this.lblMessage2);
             this.Controls.Add(this.lblMessage1);
             this.Name = "Form1";
@@ -125,11 +137,12 @@
 
         private System.Windows.Forms.Label lblMessage1;
         private System.Windows.Forms.Label lblMessage2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtMinimum;
         private System.Windows.Forms.Label lblMessage3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtMaximum;
         private System.Windows.Forms.Label lblResult;
-        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Button btnInteger;
+        private System.Windows.Forms.Button btnDouble;
     }
 }
 

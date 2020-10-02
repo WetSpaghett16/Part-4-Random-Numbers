@@ -15,19 +15,15 @@ namespace Part_4_Random_Numbers
         public Form1()
         {
             InitializeComponent();
+
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void btnDouble_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSubmit_Click(object sender, EventArgs e)
+        private void btnInteger_Click_1(object sender, EventArgs e)
         {
 
         }
