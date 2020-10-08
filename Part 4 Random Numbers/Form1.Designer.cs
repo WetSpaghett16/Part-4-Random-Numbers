@@ -92,10 +92,10 @@
             // 
             // btnInteger
             // 
-            this.btnInteger.Font = new System.Drawing.Font("PanRoman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.btnInteger.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInteger.Location = new System.Drawing.Point(12, 152);
             this.btnInteger.Name = "btnInteger";
-            this.btnInteger.Size = new System.Drawing.Size(79, 23);
+            this.btnInteger.Size = new System.Drawing.Size(89, 23);
             this.btnInteger.TabIndex = 6;
             this.btnInteger.Text = "Get Integer";
             this.btnInteger.UseVisualStyleBackColor = true;
@@ -103,10 +103,10 @@
             // 
             // btnDouble
             // 
-            this.btnDouble.Font = new System.Drawing.Font("PanRoman", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.btnDouble.Location = new System.Drawing.Point(185, 152);
+            this.btnDouble.Font = new System.Drawing.Font("Poor Richard", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDouble.Location = new System.Drawing.Point(171, 152);
             this.btnDouble.Name = "btnDouble";
-            this.btnDouble.Size = new System.Drawing.Size(75, 23);
+            this.btnDouble.Size = new System.Drawing.Size(89, 23);
             this.btnDouble.TabIndex = 7;
             this.btnDouble.Text = "Get Double";
             this.btnDouble.UseVisualStyleBackColor = true;
