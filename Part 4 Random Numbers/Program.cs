@@ -6,17 +6,17 @@ using System.Windows.Forms;
 
 namespace Part_4_Random_Numbers
 {
+    Random generator = new Random();
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
+        
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+
         }
     }
 }
