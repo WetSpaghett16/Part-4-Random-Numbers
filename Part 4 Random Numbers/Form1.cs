@@ -23,7 +23,7 @@ namespace Part_4_Random_Numbers
 
         private void btnDouble_Click(object sender, EventArgs e)
         {
-            generator.NextDouble();
+            
         }
 
         private void btnInteger_Click_1(object sender, EventArgs e)
