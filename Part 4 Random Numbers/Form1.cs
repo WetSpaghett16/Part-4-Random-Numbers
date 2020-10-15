@@ -23,22 +23,22 @@ namespace Part_4_Random_Numbers
 
         private void btnDouble_Click(object sender, EventArgs e)
         {
-
+            generator.NextDouble();
         }
 
         private void btnInteger_Click_1(object sender, EventArgs e)
         {
-
+            generator.Next(Minimum, Maximum);
         }
 
         private void txtMinimum_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void txtMaximum_TextChanged(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
