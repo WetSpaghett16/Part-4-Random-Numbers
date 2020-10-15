@@ -64,6 +64,7 @@
             this.txtMinimum.Name = "txtMinimum";
             this.txtMinimum.Size = new System.Drawing.Size(100, 20);
             this.txtMinimum.TabIndex = 2;
+            this.txtMinimum.TextChanged += new System.EventHandler(this.txtMinimum_TextChanged);
             // 
             // lblMessage3
             // 
@@ -81,6 +82,7 @@
             this.txtMaximum.Name = "txtMaximum";
             this.txtMaximum.Size = new System.Drawing.Size(100, 20);
             this.txtMaximum.TabIndex = 4;
+            this.txtMaximum.TextChanged += new System.EventHandler(this.txtMaximum_TextChanged);
             // 
             // lblResult
             // 
