@@ -1,4 +1,4 @@
-﻿namespace Part_4_Random_Numbers
+﻿namespace Random_Numbers
 {
     partial class Form1
     {
@@ -130,6 +130,7 @@
             this.Controls.Add(this.lblMessage1);
             this.Name = "Form1";
             this.Text = "Random Number Generator";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Part_4_Random_Numbers
+namespace Random_Numbers
 {
-    Random generator = new Random();
+    
     static class Program
     {
         
